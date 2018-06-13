@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cs304_SuperBuy.GUIframe.searchmerchant">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-470859"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="57d0f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Search by MID"/>
+        </properties>
+      </component>
+      <component id="320b7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Merchant Type"/>
+        </properties>
+      </component>
+      <component id="5d1d4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Merchant Name"/>
+        </properties>
+      </component>
+      <component id="6ddfe" class="javax.swing.JTextField" binding="textFieldSearchbyMname">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5392"/>
+        </properties>
+      </component>
+      <component id="10a86" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Merchant Rating"/>
+        </properties>
+      </component>
+      <component id="4dbb3" class="javax.swing.JList" binding="sortbyRatingmultiple">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5392"/>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2e31d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Sort by"/>
+        </properties>
+      </component>
+      <component id="d1cb7" class="javax.swing.JComboBox" binding="comboBoxSortby">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5392"/>
+          <model>
+            <item value="null"/>
+            <item value="Merchant name A-Z"/>
+            <item value="Merchant name Z-A"/>
+            <item value="Merchant rating low-high"/>
+            <item value="Merchant rating high-low"/>
+            <item value="Merchant sales high-low"/>
+            <item value="Merchant sales low-high"/>
+          </model>
+        </properties>
+      </component>
+      <component id="12b4f" class="javax.swing.JButton" binding="searchMerchant">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8065831"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="dcda0" class="javax.swing.JTextField" binding="textFieldmid">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5392"/>
+        </properties>
+      </component>
+      <component id="3ba02" class="javax.swing.JList" binding="merchanttypemultiple">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5392"/>
+          <model>
+            <item value="FOOD"/>
+            <item value="ELECTRONICS"/>
+            <item value="CLOTHING"/>
+            <item value="BOOKS"/>
+            <item value="MUSIC"/>
+          </model>
+        </properties>
+      </component>
+      <scrollpane id="a64ef">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="896fa" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="5ec84" class="javax.swing.JButton" binding="purchaseButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Purchase"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
